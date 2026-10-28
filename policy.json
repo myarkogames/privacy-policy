@@ -1,0 +1,26 @@
+{
+  "developer": "Myarko Games",
+  "email": "TODO_EMAIL",
+  "updated": "2026-10-28",
+  "sdks": {
+    "google-play": {
+      "name": "Google Play",
+      "purpose": "App distribution and updates. Google may collect install, device and crash diagnostics (Android vitals) under its own policy.",
+      "policy": "https://policies.google.com/privacy"
+    }
+  },
+  "apps": [
+    {
+      "slug": "snake-odyssey",
+      "name": "Snake Odyssey 3D: Eat It All",
+      "package": "com.myarkogames.snakeodyssey",
+      "stores": ["Google Play"],
+      "local": "Game progress and settings (levels, coins, unlocked skins, sound options) are saved only on your device.",
+      "collected": [],
+      "sdks": ["google-play"],
+      "ads": false,
+      "purchases": false,
+      "permissions": []
+    }
+  ]
+}
