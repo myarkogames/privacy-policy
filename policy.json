@@ -1,7 +1,7 @@
 {
   "developer": "Myarko Games",
   "email": "myarkogames@gmail.com",
-  "updated": "2026-10-28",
+  "updated": "2026-11-16",
   "sdks": {
     "google-play": {
       "name": "Google Play",
@@ -14,10 +14,30 @@
       "slug": "snake-odyssey",
       "name": "Snake Odyssey 3D: Eat It All",
       "package": "com.myarkogames.snakeodyssey",
-      "stores": ["Google Play"],
+      "stores": [
+        "Google Play"
+      ],
       "local": "Game progress and settings (levels, coins, unlocked skins, sound options) are saved only on your device.",
       "collected": [],
-      "sdks": ["google-play"],
+      "sdks": [
+        "google-play"
+      ],
+      "ads": false,
+      "purchases": false,
+      "permissions": []
+    },
+    {
+      "slug": "sling-lanes",
+      "name": "Sling Lanes",
+      "package": "com.kosboss.slinglanes",
+      "stores": [
+        "Google Play"
+      ],
+      "local": "Game progress and settings (trophies, battle stats, hero collection, deck, sound, music and language options) are saved only on your device.",
+      "collected": [],
+      "sdks": [
+        "google-play"
+      ],
       "ads": false,
       "purchases": false,
       "permissions": []
