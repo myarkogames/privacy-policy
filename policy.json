@@ -7,6 +7,26 @@
       "name": "Google Play",
       "purpose": "App distribution and updates. Google may collect install, device and crash diagnostics (Android vitals) under its own policy.",
       "policy": "https://policies.google.com/privacy"
+    },
+    "applovin": {
+      "name": "AppLovin MAX",
+      "purpose": "Ad mediation: requests, shows and measures ads, and shows the consent form in regions that require it. Uses the advertising ID, IP address, device and ad interaction data.",
+      "policy": "https://www.applovin.com/privacy/"
+    },
+    "admob": {
+      "name": "Google AdMob",
+      "purpose": "Ads served through AppLovin MAX and Google's consent form (User Messaging Platform). Uses the advertising ID, IP address, device and ad interaction data.",
+      "policy": "https://policies.google.com/privacy"
+    },
+    "unity-ads": {
+      "name": "Unity Ads",
+      "purpose": "Ads served through AppLovin MAX. Uses the advertising ID, IP address, device and ad interaction data.",
+      "policy": "https://unity.com/legal/game-player-and-app-user-privacy-policy"
+    },
+    "google-play-billing": {
+      "name": "Google Play Billing",
+      "purpose": "Processes in-app purchases; payment details stay with Google.",
+      "policy": "https://policies.google.com/privacy"
     }
   },
   "apps": [

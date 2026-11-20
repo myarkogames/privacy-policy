@@ -48,10 +48,16 @@ def app_page(app):
         f'<a href="{html.escape(s["policy"])}">Privacy policy</a>.</li>'
         for s in sdks)
     collected = items(app["collected"],
-                      "We do not collect, store on our servers, sell or share any personal data. "
+                      ("We do not collect, store on our servers, sell or share any personal data ourselves. "
+                       "The ad providers listed below collect device data to show ads, as described under "
+                       "Advertising. " if app["ads"] else
+                       "We do not collect, store on our servers, sell or share any personal data. ") +
                       "The app does not ask for your name, email, location, contacts or any account.")
-    ads = ("The app shows ads from the providers listed above. They may use your device's advertising ID "
-           "to show and measure ads; you can reset or opt out of it in your device settings."
+    ads = ("The app shows ads from the providers listed above. To show, measure and limit ads they collect your "
+           "device's advertising ID, IP address, device model, operating system, language and how you interact "
+           "with ads. In the EU, EEA, UK and Switzerland the app first asks for your consent through Google's "
+           "consent form, and you can change your choice at any time with the Privacy options button in the "
+           "app's settings. You can also reset or delete your advertising ID in your device settings."
            if app["ads"] else "The app does not show third-party ads and does not use your advertising ID.")
     purchases = ("In-app purchases are processed by the store; we never see your payment details."
                  if app["purchases"] else "The app has no in-app purchases.")
@@ -82,7 +88,7 @@ including children. If you believe a child has provided us personal information,
 app data at any time by clearing the app's storage or uninstalling it. For data held by the services above, use their
 own tools linked in their policies.</p>
 <h2>Security</h2>
-<p>The app does not transmit your game data over the network, so it stays protected by your device's own security.</p>
+<p>{"Apart from the ad requests made by the providers above, the app" if app["ads"] else "The app"} does not transmit your game data over the network, so it stays protected by your device's own security.</p>
 <h2>Changes to this policy</h2>
 <p>We will update this page when the app's data practices change, for example when a new service is added, and change
 the "Last updated" date above.</p>
