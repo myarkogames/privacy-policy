@@ -1,7 +1,7 @@
 {
   "developer": "Myarko Games",
   "email": "myarkogames@gmail.com",
-  "updated": "2026-11-25",
+  "updated": "2026-11-16",
   "sdks": {
     "google-play": {
       "name": "Google Play",
@@ -54,22 +54,6 @@
         "Google Play"
       ],
       "local": "Game progress and settings (trophies, battle stats, hero collection, deck, sound, music and language options) are saved only on your device.",
-      "collected": [],
-      "sdks": [
-        "google-play"
-      ],
-      "ads": false,
-      "purchases": false,
-      "permissions": []
-    },
-    {
-      "slug": "football-survivor-2",
-      "name": "Football Survivor",
-      "package": "com.kosboss.footballsurvivor2",
-      "stores": [
-        "Google Play"
-      ],
-      "local": "Game progress and settings (coins, upgrades, unlocked stadiums, training progress, sound, music and language options) are saved only on your device.",
       "collected": [],
       "sdks": [
         "google-play"
