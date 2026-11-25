@@ -45,22 +45,6 @@
       "ads": false,
       "purchases": false,
       "permissions": []
-    },
-    {
-      "slug": "sling-lanes",
-      "name": "Sling Lanes",
-      "package": "com.kosboss.slinglanes",
-      "stores": [
-        "Google Play"
-      ],
-      "local": "Game progress and settings (trophies, battle stats, hero collection, deck, sound, music and language options) are saved only on your device.",
-      "collected": [],
-      "sdks": [
-        "google-play"
-      ],
-      "ads": false,
-      "purchases": false,
-      "permissions": []
     }
   ]
 }
